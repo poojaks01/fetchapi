@@ -15,7 +15,7 @@ import Product from './views/Product'
 
 function App() {
   return (
-    <div>
+    <div style={{position:'relative', paddingBottom:'30px'}}>
      
           
          <Router>
@@ -28,7 +28,7 @@ function App() {
                      <Route path="/about">
                         <About />
                      </Route>
-                     <Route path="/products/:1d">
+                     <Route path="/products/:id">
                         <Product />
                      </Route>
 
