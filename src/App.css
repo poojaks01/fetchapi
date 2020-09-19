@@ -1,0 +1,27 @@
+.app-header{
+  
+  border-bottom: 2px solid lightgrey;
+  padding: 10px;
+  font-size: 18px;
+  box-shadow: gray;
+  margin-left: -8px;
+  margin-right: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+  font-weight: bold;
+  font-size: 22px;
+}
+.app-footer{
+  margin-left: -8px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: lightgray;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width:98.5%;
+}
